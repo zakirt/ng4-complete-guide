@@ -10,6 +10,7 @@ export class RecipeDetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+      console.log('recipe details initiailizing');
   }
 
 }

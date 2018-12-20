@@ -2,5 +2,5 @@
  * Recipe model definition
  */
 export class Recipe {
-    constructor(public name: string, public description: string, public imagePath: string) {}
+    constructor(public id: number, public name: string, public description: string, public imagePath: string) {}
 }
